@@ -1,0 +1,45 @@
+@import "@fontsource/montserrat/300.css";
+@import "@fontsource/montserrat/400.css";
+@import "@fontsource/montserrat/500.css";
+@import "@fontsource/montserrat/600.css";
+@import "@fontsource/montserrat/700.css";
+
+@import "@fontsource/open-sans/300.css";
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/500.css";
+@import "@fontsource/open-sans/600.css";
+@import "@fontsource/open-sans/700.css";
+
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... */
+
+@layer base {
+  :root {
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --radius: 0.5rem;
+  }
+}
+
+.seat-select {
+  filter: drop-shadow(1px 1px 6px #067aee);
+}
+
+.seat-booked {
+  filter: drop-shadow(1px 1px 10px #4f4a4a);
+}
+
+.card-bg {
+  box-shadow: 0px 0px 300px rgba(121, 104, 250, 0.838);
+
+}
