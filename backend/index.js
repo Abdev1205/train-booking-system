@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import apiRoutes from "./routes/index.js"
 import initializeSeats from "./utils/initializeSeats.js";
-import connectDb from "./Db/connect.js"
+import connectDb from "./db/connect.js"
 import 'dotenv/config'
 
 const app = express();
